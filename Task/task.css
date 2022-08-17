@@ -1,0 +1,60 @@
+.header {
+    background-color: #ffbf45;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header-par {
+
+    font-family: montserrat;
+    height: 820px;
+
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(fonts/Montserrat.htm);
+}
+
+.logo {
+    max-width: 263px;
+    margin: 46px 56px;
+}
+
+.scooter {
+    margin: 46px 12px;
+    height: 35px;
+}
+
+.scooter-par {
+    text-align: center;
+    display: flex;
+    margin: -655px 56px 0px 0px;
+    width: 330px;
+    align-items: center;
+    font-family: bebas-neue;
+}
+
+.nav-par {
+    display: flex;
+    text-decoration: none;
+    position: absolute;
+    font-size: 23px;
+    margin-top: -698px;
+    margin-left: 962px;
+}
+
+.nav {
+    text-decoration: none;
+    margin: 0 13px;
+}
+
+.scooter-text {
+    font-size: 16px;
+    font-weight: bold;
+}

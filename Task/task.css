@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+}
+.feature-products{
+    width: 100%;
+}
+.products{
+    padding: 30px 100px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.products-left{
+    width: 48%;
+border: 1px solid red;
+border-radius: 10px;
+position: relative;
+}
+.products-right{
+    display: flex;
+    width: 48%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.products-right-up, .products-right-down{
+    border-radius: 10px;
+    border: 1px solid red;
+    position: relative;
+}
+.products-image{
+    width: 100%;
+    border-radius: 10px;
+}
+@font-face {
+    font-family: bebas-neue;
+    src: url(./fonts/BebasNeue-Regular.ttf);
+}
+.image-para-1{
+    margin: 0;
+    font-size: 25px;
+    font-weight:700;
+    font-family: bebas-neue;
+    color: #ffffff;
+}
+.image-para-2{
+    font-size: 25px;
+    font-weight:700;
+    font-family: bebas-neue;
+    margin: 0;
+    color: #ffffff;
+}
+.most-popular{
+    position: absolute;
+    top: 10px;
+    left: 25px;
+}
+.fun-taste{
+    position: absolute;
+    top: 10px;
+    left: 25px;
+}
+.fresh-chilli{
+    position: absolute;
+    top: 10px;
+    left: 25px;
+}

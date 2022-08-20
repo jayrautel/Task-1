@@ -1,0 +1,32 @@
+.event{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+.in-event{
+    padding: 25px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+.event-article, .event-img{
+    width: 50%;
+    border: 1px solid red;
+}
+.upcoming-event{
+    padding: 15px;
+    border: 1px solid red;
+}
+.upcoming-event h2{
+    margin: 0;
+}
+.slider-button{
+    color: #dcdcdc;
+}
+.slide{
+    width: 100%;
+}
+.slide:first-child{
+    display: block;
+}

@@ -1,5 +1,9 @@
+.body {
+    margin: 0px;
+}
+
 .header {
-   background-image:url(images/header-bg-image.png) ;
+    background-image: url(images/header-bg-image.png);
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
@@ -25,6 +29,7 @@
     font-family: BebasNeue;
     src: url(fonts/BebasNeue-Regular.ttf);
 }
+
 @font-face {
     font-family: AlfaSlabOne;
     src: url(fonts/AlfaSlabOne-Regular.ttf);
@@ -57,7 +62,7 @@
     margin-top: -698px;
     margin-left: 918px;
     max-width: 533px;
-    
+
 }
 
 
@@ -69,8 +74,13 @@
     letter-spacing: 6px;
     color: #3d2514;
 
+
 }
-a{text-decoration: none;color: #3d2514;}
+
+a {
+    text-decoration: none;
+    color: #3d2514;
+}
 
 .scooter-text {
     font-weight: bold;
@@ -128,7 +138,7 @@ a{text-decoration: none;color: #3d2514;}
     position: absolute;
 }
 
-.header-sub-title-parent{}
+.header-sub-title-parent {}
 
 .header-sub-title {
     font-size: 24px;
@@ -152,14 +162,17 @@ a{text-decoration: none;color: #3d2514;}
     color: white;
     letter-spacing: 6px;
 }
-.header-burger-text-white{ margin-top: -476px;
+
+.header-burger-text-white {
+    margin-top: -476px;
     margin-left: 60px;
     position: absolute;
     font-weight: bold;
     font-family: AlfaSlabOne;
     font-size: 114px;
     color: #3d2514;
-    letter-spacing: 6px;}
+    letter-spacing: 6px;
+}
 
 .header-week-text {
     margin-top: -328px;
@@ -172,13 +185,33 @@ a{text-decoration: none;color: #3d2514;}
     letter-spacing: 2px;
 }
 
-.header-week-text-white{margin-top: -331px;
+.header-week-text-white {
+    margin-top: -331px;
     margin-left: 65px;
     position: absolute;
     font-weight: bold;
-    font-family:AlfaSlabOne;
+    font-family: AlfaSlabOne;
     font-size: 56px;
     color: #3d2514;
     letter-spacing: 2px;
 }
 
+.header-glow {
+    margin-left: 499px;
+    height: 600px;
+    width: 100%;
+    max-width: 1150px;
+    position: absolute;
+    margin-top: -783px;
+}
+
+.amit {
+    letter-spacing: 6px;
+    font-family: 'BebasNeue';
+    margin: -698px 6px 10px 954px;
+    font-size: 25px;
+}
+
+.list {
+    margin: 8px;
+}

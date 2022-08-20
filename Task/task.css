@@ -1,5 +1,5 @@
 .header {
-    background-color: #ffbf45;
+   background-image:url(images/header-bg-image.png) ;
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
@@ -68,7 +68,9 @@
     font-family: BebasNeue;
     letter-spacing: 6px;
     color: #3d2514;
+
 }
+a{text-decoration: none;color: #3d2514;}
 
 .scooter-text {
     font-weight: bold;
@@ -100,27 +102,17 @@
     transform: rotate(-36deg);
     max-width: 220px;
     margin-top: -527px;
-    margin-left: 812px;
+    margin-left: 820px;
 }
 
 .header-price {
-    margin-top: -229px;
-    margin-left: 842px;
-    border-radius: 100%;
+    margin-top: -295px;
+    margin-left: 786px;
     padding: 54px 10px;
-    background-color: #bf2121;
-    border: 2px solid white;
     position: absolute;
 }
 
-.header-inner-price {
-    font-size: 15px;
-    color: white;
-    border-radius: 100%;
-    border: dashed 2px white;
-    padding: 42px 5px;
-    background-color: #bf2121;
-}
+
 
 .header-burger-shadow {
     margin-top: -115px;
@@ -174,7 +166,7 @@
     margin-left: 67px;
     position: absolute;
     font-weight: bold;
-    font-family: fantasy;
+    font-family: AlfaSlabOne;
     font-size: 56px;
     color: white;
     letter-spacing: 2px;
@@ -184,7 +176,7 @@
     margin-left: 65px;
     position: absolute;
     font-weight: bold;
-    font-family: fantasy;
+    font-family:AlfaSlabOne;
     font-size: 56px;
     color: #3d2514;
     letter-spacing: 2px;

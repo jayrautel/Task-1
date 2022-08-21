@@ -2,41 +2,38 @@ class slider{
     constructor(){
         this.images = [
             {
-                img: './Food Image.png',
+                img: 'imgs/Food image.png'
             },
             {
-                img: './burger-image.jpg',
+                img: 'imgs/burger-image.jpg'
             },
             {
-                img: './food-burger.jpg',
+                img: 'imgs/food-burger.jpg'
             }
         ]
         this.activeimg = this.images[0];
-        this.activeIndex = 0;
+        this.activeimgIndex = 0;
     }
 
     playthis() {
-           let present ='<img src="' + this.activeimg.img + '" alt="" class="slide"></img>'
+           let present ='<img src="' + this.activeimg.img + '" class="slide"/>'
         $('#event-img').html(present)
     }
     one() {
-        if (this.activeIndex = 0) {
-            this.activeIndex = this.activeIndex ;
-            this.activeimg = this.images[this.activeIndex];
+        if (this.activeimgIndex = '0') {
+            this.activeimg = this.images[this.activeimgIndex];
             this.playthis();
         }
     }
     two() {
-        if (this.activeIndex =1) {
-            this.activeIndex = this.activeIndex + 1;
-            this.activeimg = this.images[this.activeIndex];
+        if (this.activeimgIndex =1) {
+            this.activeimg = this.images[this.activeimgIndex];
             this.playthis();
         }
     }
     three() {
-        if (this.activeIndex = 2) {
-            this.activeIndex = this.activeIndex + 2;
-            this.activeimg = this.images[this.activeIndex];
+        if (this.activeimgIndex = 2) {
+            this.activeimg = this.images[this.activeimgIndex];
             this.playthis();
         }
 

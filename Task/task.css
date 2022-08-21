@@ -13,7 +13,9 @@
 }
 .event-article, .event-img{
     width: 50%;
+    height: 440px;
     border: 1px solid red;
+    overflow: hidden;
 }
 .upcoming-event{
     padding: 15px;
@@ -28,8 +30,7 @@
 .slide{
     width: 100%;
 }
-.slide:first-child{
-    display: block;}
+
 
 .enjoy-inner{
     padding: 10px 100px;

@@ -10,11 +10,8 @@
 }
 
 .header-par {
-
     font-family: Montserrat;
     height: 820px;
-
-
     display: flex;
     justify-content: space-between;
 
@@ -35,17 +32,12 @@
     src: url(fonts/AlfaSlabOne-Regular.ttf);
 }
 
-.logo {
+.header-logo {
     max-width: 263px;
     margin: 46px 56px;
 }
 
-.scooter {
-    margin: 46px 12px;
-    height: 35px;
-}
-
-.scooter-par {
+.header-scooter-par {
     text-align: center;
     display: flex;
     margin: -655px 45px 0px 0px;
@@ -54,7 +46,19 @@
     font-family: bebas-neue;
 }
 
-.nav-par {
+.header-scooter {
+    margin: 46px 12px;
+    height: 35px;
+}
+
+.header-scooter-text {
+    font-weight: bold;
+    font-family: 'Montserrat';
+    max-width: 273px;
+    height: 18px;
+}
+
+.header-nav-par {
     display: flex;
     text-decoration: none;
     position: absolute;
@@ -65,16 +69,21 @@
 
 }
 
-
-
-.nav {
+.header-nav {
     text-decoration: none;
     margin: 0 13px;
     font-family: BebasNeue;
     letter-spacing: 6px;
     color: #3d2514;
+}
 
-
+.header-glow {
+    margin-left: 650px;
+    height: 600px;
+    width: 100%;
+    max-width: 827px;
+    position: absolute;
+    margin-top: -798px;
 }
 
 a {
@@ -82,28 +91,12 @@ a {
     color: #3d2514;
 }
 
-.scooter-text {
-    font-weight: bold;
-    font-family: 'Montserrat';
-    max-width: 273px;
-    height: 18px;
-}
-
-.drink {
+.header-drink {
     margin-left: 1165px;
     margin-top: -598px;
     max-width: 171px;
     position: absolute;
     height: 478px;
-}
-
-
-.header-burger {
-    margin-top: -471px;
-    margin-left: 914px;
-    max-width: 356px;
-    position: absolute;
-    height: 367px;
 }
 
 .header-french-fries {
@@ -113,14 +106,20 @@ a {
     margin-left: 820px;
 }
 
+.header-burger {
+    margin-top: -471px;
+    margin-left: 914px;
+    max-width: 356px;
+    position: absolute;
+    height: 367px;
+}
+
 .header-price {
     margin-top: -295px;
     margin-left: 786px;
     padding: 54px 10px;
     position: absolute;
 }
-
-
 
 .header-burger-shadow {
     margin-top: -115px;
@@ -192,15 +191,6 @@ a {
     font-size: 56px;
     color: #3d2514;
     letter-spacing: 2px;
-}
-
-.header-glow {
-    margin-left: 499px;
-    height: 600px;
-    width: 100%;
-    max-width: 1150px;
-    position: absolute;
-    margin-top: -783px;
 }
 
 .amit {

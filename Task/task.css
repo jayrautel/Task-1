@@ -1,57 +1,100 @@
-
-.event{
+.event {
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
-    border: 1px solid red;
 }
-.in-event{
+
+.in-event {
     padding: 25px;
-    border: 1px solid red;
     display: flex;
     justify-content: space-between;
+    box-shadow: 2px 1px 5px 8px rgb(248, 247, 247);
 }
-.event-article, .event-img{
+
+.event-article,
+.event-img {
     width: 50%;
     height: 440px;
-    border: 1px solid red;
     overflow: hidden;
 }
-.upcoming-event{
+
+.upcoming-event {
     padding: 15px;
-    border: 1px solid red;
+    margin-top: 65px;
 }
-.upcoming-event h2{
+
+@font-face {
+    font-family: BebasNeue;
+    src: url(./fonts/BebasNeue-Regular.ttf);
+}
+
+.event-discover {
+    font-size: 29px;
+    font-family: BebasNeue;
+}
+
+@font-face {
+    font-family: AlfaSlabOne;
+    src: url(./fonts/AlfaSlabOne-Regular.ttf);
+}
+
+.event-heading {
     margin: 0;
+    margin-bottom: 15px;
+    font-size: 42px;
+    font-family: AlfaSlabOne;
 }
-.slider-button{
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+.event-para {
+    margin: 0;
+    font-size: Montserrat;
+    font-size: 21px;
+}
+
+.slider-button {
     color: #dcdcdc;
+    margin-top: 80px;
 }
-.slide{
+.slider-button:hover {
+    color: #ffc045;
+}
+
+
+.slide {
     width: 100%;
 }
 
 
-.enjoy-inner{
+.enjoy-inner {
     padding: 10px 100px;
     text-align: center;
 }
+
 @font-face {
     font-family: bebas-neue;
-    src: url(./fonts/BebasNeue-Regular.ttf);  
+    src: url(./fonts/BebasNeue-Regular.ttf);
 }
+
 @font-face {
     font-family: alfa-slab;
     src: url(./fonts/AlfaSlabOne-Regular.ttf);
 }
+
 @font-face {
     font-family: montserrat;
     src: url(./fonts/Montserrat-VariableFont_wght.ttf);
 }
-.choose-always{
+
+.choose-always {
     text-align: -webkit-center;
 }
-.choose-button{
+
+.choose-button {
     font-family: bebas-neue;
     background-color: #ffc045;
     padding: 10px 0px;
@@ -59,13 +102,15 @@
     font-size: 25px;
     cursor: pointer;
 }
-.section-title{
+
+.section-title {
     font-family: alfa-slab;
     font-size: 45px;
     padding: 30px 0;
     color: #3d2514;
 }
-.choose-info article p{
+
+.choose-info article p {
     font-family: montserrat;
     margin: 0;
     font-size: 17px;

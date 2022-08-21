@@ -1,3 +1,4 @@
+
 .event{
     max-width: 1440px;
     width: 100%;
@@ -28,5 +29,45 @@
     width: 100%;
 }
 .slide:first-child{
-    display: block;
+    display: block;}
+
+.enjoy-inner{
+    padding: 10px 100px;
+    text-align: center;
+}
+@font-face {
+    font-family: bebas-neue;
+    src: url(./fonts/BebasNeue-Regular.ttf);  
+}
+@font-face {
+    font-family: alfa-slab;
+    src: url(./fonts/AlfaSlabOne-Regular.ttf);
+}
+@font-face {
+    font-family: montserrat;
+    src: url(./fonts/Montserrat-VariableFont_wght.ttf);
+}
+.choose-always{
+    text-align: -webkit-center;
+}
+.choose-button{
+    font-family: bebas-neue;
+    background-color: #ffc045;
+    padding: 10px 0px;
+    width: 15%;
+    font-size: 25px;
+    cursor: pointer;
+}
+.section-title{
+    font-family: alfa-slab;
+    font-size: 45px;
+    padding: 30px 0;
+    color: #3d2514;
+}
+.choose-info article p{
+    font-family: montserrat;
+    margin: 0;
+    font-size: 17px;
+    color: #3d2514;
+
 }

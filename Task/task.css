@@ -2,13 +2,14 @@
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
+    box-shadow: 10px 10px 35px 1px grey;
 }
 
 .in-event {
     padding: 25px;
     display: flex;
     justify-content: space-between;
-    box-shadow: 2px 1px 5px 8px rgb(248, 247, 247);
+   
 }
 
 .event-article,
@@ -31,6 +32,7 @@
 .event-discover {
     font-size: 29px;
     font-family: BebasNeue;
+    color: #3d3d3d;
 }
 
 @font-face {
@@ -43,6 +45,7 @@
     margin-bottom: 15px;
     font-size: 42px;
     font-family: AlfaSlabOne;
+    color: #3d2514;
 }
 
 @font-face {
@@ -52,8 +55,9 @@
 
 .event-para {
     margin: 0;
-    font-size: Montserrat;
+    font-family: Montserrat;
     font-size: 21px;
+    color: #4e4e4e;
 }
 
 .slider-button {

@@ -26,7 +26,7 @@
 .box{
     padding: 20px;
     padding: 20px;
-    width: 300px;
+    width: 335px;
     border: 1px solid grey;
     border-radius: 5px;
 }
@@ -42,7 +42,7 @@
 }
 input[type=button]{
     
-    width: 340px;
+    width: 380px;
     height: 57px;
     margin: 2px;
     color: #fff;
@@ -53,23 +53,26 @@ input[type=button]{
     font-weight: bold;
 }
 .red-bottle{
-    width: 39%;
-    margin-top: -259px;
+    position: absolute;
+    top: 172px;
+    left: -14px;
+    width: 40%;
 }
 .burger-round{
-    float: left;
-    margin-top: -301px;
-    margin-left: -298px;
+    right: 800px;
+    position: absolute;
+    top: 45px;
+    width: 75%;
 }
 .dish{
-    float: right;
-    padding-left: 968px;
-    margin-top: -167px;
+    left: 1076px;
+    position: absolute;
+    top: 205px;
 }
 
 #main .btn
 {
- width:300px; 
+ width:340px; 
  height:56px; 
  outline:none; 
   font-weight:bold;

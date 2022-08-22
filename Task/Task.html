@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="task.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" a href="./task.css">
+    <link rel="stylesheet" href="./task.css">
+    <script src="./task.js"></script>
     <script src="jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/b826549c01.js" crossorigin="anonymous"></script>
 </head>
@@ -130,6 +132,74 @@
             </div>
         </section>
         <script src="task.js"></script>
+
+        <section class="book_your_table">
+            <div class="title">
+                <h4>RESERVATION</h4>
+                <h1>BOOK YOUR TABLE</h1>
+            </div>
+            <div class="block1">
+                <div class="block-details">
+                    <div class="block1-data">
+                        <div class="block-details2">
+                            <div class="block3-data">
+                                <input type="text" placeholder="NAME" class="box" required>
+                            </div>
+                            <div class="block4-data">
+                                <input type="email" placeholder="EMAIL" class="box" required="@">
+                            </div>
+                        </div>
+                        <div class="block-details2">
+                            <div class="block3-data">
+                                <input type="text" placeholder="DD/MM/YYY" class="box" onfocus="(this.type='date')"
+                                    onblur="(this.type='text')">
+                            </div>
+                            <div class="block4-data">
+                                <input type="TIME" placeholder="12:00am" class="box" required>
+                            </div>
+                        </div>
+                        <div class="block-details2">
+                            <div class="block3-data">
+                                <input type="number" placeholder="PEOPLE" class="box">
+                            </div>
+                            <div class="block4-data">
+                                <div id="main">
+                                    <div class="login">
+                                        <input type="submit" value="FIND THE TABLE" onclick="clearFunc()" class="btn" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottle">
+                    <div class="red-bottle">
+                        <img src="./Bottle img.png" alt="img" width="10%">
+                    </div>
+                </div>
+                <div class="burger">
+                    <div class="burger-round">
+
+                        <img src="./Burger img.png" alt="img" width="12%">
+                    </div>
+                </div>
+                <div class="burger-plate">
+                    <div class="dish">
+                        <img src="./Image2 burgerplate.png" alt="img" width="60%">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
 </body>
 
 </html>

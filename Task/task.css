@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     margin: 0;
 }
@@ -272,44 +273,150 @@ position: relative;
 .event-discover {
     font-size: 29px;
     font-family: BebasNeue;
-    color: #3d3d3d;
+    color: #3d3d3d;}
+    @font-face {
+        font-family: AlfaSlabOne;
+        src: url(./fonts/AlfaSlabOne-Regular.ttf);
+    }
+    
+    
+    .event-heading {
+        margin: 0;
+        margin-bottom: 15px;
+        font-size: 42px;
+        font-family: AlfaSlabOne;
+        color: #3d2514;
+    }
+    
+    @font-face {
+        font-family: Montserrat;
+        src: url(./fonts/Montserrat-VariableFont_wght.ttf);
+    }
+    
+    .event-para {
+        margin: 0;
+        font-family: Montserrat;
+        font-size: 21px;
+        color: #4e4e4e;
+    }
+    
+    .slider-button {
+        color: #dcdcdc;
+        margin-top: 80px;
+    }
+    .slider-button:hover {
+        color: #ffc045;
+    }
+    .slide {
+        width: 100%;
+    }
+
+
+
+/*Book your table*/
+.title{
+    text-align: center;
+    font-size: 24px;
+}
+.block-details{
+    display: flex;
+}
+.block1 {
+ text-align: center;
+ 
 }
 
-@font-face {
-    font-family: AlfaSlabOne;
-    src: url(./fonts/AlfaSlabOne-Regular.ttf);
+.block1-data{
+    padding: 15px;
+    padding-left: 380px;  
 }
 
-.event-heading {
-    margin: 0;
-    margin-bottom: 15px;
-    font-size: 42px;
-    font-family: AlfaSlabOne;
-    color: #3d2514;
+.box{
+    padding: 20px;
+    padding: 20px;
+    width: 335px;
+    border: 1px solid grey;
+    border-radius: 5px;
 }
 
-@font-face {
-    font-family: Montserrat;
-    src: url(./fonts/Montserrat-VariableFont_wght.ttf);
+.block-details2{
+    display: flex;
 }
 
-.event-para {
-    margin: 0;
-    font-family: Montserrat;
+.block3-data{
+    padding: 0px 29px 20px 12px;
+    
+}
+input[type=button]{
+    
+    width: 380px;
+    height: 57px;
+    margin: 2px;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    background-color: red;
     font-size: 21px;
-    color: #4e4e4e;
+    font-weight: bold;
+}
+.red-bottle{
+    position: absolute;
+    top: 172px;
+    left: -14px;
+    width: 40%;
+}
+.burger-round{
+    right: 800px;
+    position: absolute;
+    top: 45px;
+    width: 75%;
+}
+.dish{
+    left: 1076px;
+    position: absolute;
+    top: 205px;
 }
 
-.slider-button {
-    color: #dcdcdc;
-    margin-top: 80px;
-}
-.slider-button:hover {
-    color: #ffc045;
-}
-.slide {
-    width: 100%;
+#main .btn
+{
+ width:340px; 
+ height:56px; 
+ outline:none; 
+  font-weight:bold;
+   border:0px solid gray;
+    text-shadow: 0px 0.5px 0.5px #fff;	
+ border-radius: 5px; 
+ font-weight: 600; 
+ color:gray; 
+ letter-spacing: 1px; 
+ font-size:18px; 
+ -webkit-transition: 1s; 
+ -moz-transition: 1s;
+  transition: 1s;
 }
 
+#main .btn:hover
+{
+ background-color:red; 
+ outline:none;  
+ border-radius: 5px; 
+ color:#f1f1f1; 
+ border:1px solid grey;
+}
 
+.title h1{
+    font-family: AlfaSlabOne;
+
+}
+.btn{
+    font-family: AlfaSlabOne;
+
+}
+@font-face {
+    font-family: BebasNeue;
+    src: url(./fonts/BebasNeue-Regular.ttf);
+}
+.title h4{
+    font-family: BebasNeue;
+}
 

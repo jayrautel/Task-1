@@ -1,5 +1,5 @@
 
-// feature product section 0pen //
+
 body{
     margin: 0;
 }
@@ -66,7 +66,6 @@ position: relative;
     left: 25px;
 }
 
-// feature product section closed //
 
 
 
@@ -75,10 +74,11 @@ position: relative;
 
 
 
-//  choose article open //
+
+
 .enjoy-inner {
     padding: 10px 100px;
-    text-align: center;
+    text-align: center; }
     
     @font-face {
     font-family: bebas-neue;
@@ -120,12 +120,16 @@ position: relative;
     margin: 0;
     font-size: 17px;
     color: #3d2514;
-
-//  choose article end //
-
+}
 
 
-//event section 0pen //
+
+
+
+
+
+
+
 
 .event {
     max-width: 1440px;
@@ -202,4 +206,4 @@ position: relative;
     width: 100%;
 }
 
-//event section closed //
+

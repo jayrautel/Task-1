@@ -5,7 +5,6 @@
 
 .title{
     text-align: center;
-    color: black;
     font-size: 24px;
 }
 .block-details{
@@ -97,3 +96,23 @@ input[type=button]{
  border:1px solid grey;
 }
 
+@font-face {
+    font-family: AlfaSlabOne;
+    src: url(./fonts/AlfaSlabOne-Regular.ttf);
+}
+.title h1{
+    font-family: AlfaSlabOne;
+
+}
+.btn{
+    font-family: AlfaSlabOne;
+
+}
+@font-face {
+    font-family: BebasNeue;
+    src: url(./fonts/BebasNeue-Regular.ttf);
+}
+.title h4{
+    font-family: BebasNeue;
+   
+}

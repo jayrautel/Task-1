@@ -124,9 +124,7 @@ position: relative;
         float: left;
         width: 335px;
         height: 272px;
-        padding: 30px 10px 5px 10px;
-    
-        
+        padding: 30px 10px 5px 10px;  
     }
     .shadow1{
         width: 382px;
@@ -237,6 +235,9 @@ position: relative;
 
     
 /*Upcoming Event*/
+.upcoming-events{
+    margin-top: 300px;
+}
 .event {
     max-width: 1440px;
     width: 100%;

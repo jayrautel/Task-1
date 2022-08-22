@@ -1,0 +1,558 @@
+body {
+    margin: 0;
+}
+
+/*Featured Products*/
+.feature-products {
+    width: 100%;
+}
+
+.products {
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.products-left {
+    width: 48%;
+    border-radius: 10px;
+    position: relative;
+}
+
+
+.products-right {
+    display: flex;
+    width: 48%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.products-right-up,
+.products-right-down {
+    border-radius: 10px;
+    position: relative;
+}
+
+.products-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+@font-face {
+    font-family: bebas-neue;
+    src: url(./fonts/BebasNeue-Regular.ttf);
+}
+
+.image-para-1 {
+    margin: 0;
+    font-size: 20px;
+    font-family: bebas-neue;
+    color: #ffffff;
+}
+
+.image-para-2 {
+    font-size: 30px;
+    font-family: bebas-neue;
+    margin: 0;
+    color: #ffffff;
+}
+
+.most-popular {
+    position: absolute;
+    top: 10px;
+    left: 25px;
+}
+
+.fun-taste {
+    position: absolute;
+    top: 10px;
+    left: 25px;
+}
+
+.fresh-chilli {
+    position: absolute;
+    top: 10px;
+    left: 25px;
+}
+
+
+
+/*Choose & Enjoy*/
+.enjoy-inner {
+    padding: 10px 100px;
+    text-align: center;
+}
+
+@font-face {
+    font-family: bebas-neue;
+    src: url(./fonts/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: alfa-slab;
+    src: url(./fonts/AlfaSlabOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(./fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+.choose-always {
+    text-align: -webkit-center;
+}
+
+.choose-button {
+    font-family: bebas-neue;
+    background-color: #ffc045;
+    padding: 10px 0px;
+    width: 15%;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.section-title {
+    font-family: alfa-slab;
+    font-size: 45px;
+    padding: 30px 0;
+    color: #3d2514;
+}
+
+.choose-info article p {
+    font-family: montserrat;
+    margin: 0;
+    font-size: 17px;
+    color: #3d2514;
+}
+
+
+/*Most popular*/
+.burger3-img3 {
+    display: flex;
+    padding: 30px 10px 5px 10px;
+}
+
+.burger1 {
+    float: left;
+    width: 335px;
+    height: 272px;
+    padding: 30px 10px 5px 10px;
+}
+
+.shadow1 {
+    width: 382px;
+    height: 40px;
+    text-align: center;
+}
+
+.shadow2 {
+    width: 372px;
+    height: 40px;
+    text-align: center;
+}
+
+.burger2 {
+    float: left;
+    width: 348px;
+    height: 303px;
+    margin-left: 185px;
+}
+
+.burger3 {
+    float: right;
+    width: 340px;
+    height: 283px;
+    margin-left: 92px;
+    padding: 30px 10px 5px 10px;
+
+}
+
+.shadow3 {
+    width: 389px;
+    height: 40px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+@font-face {
+    font-family: minal;
+    src: url(./fonts/BebasNeue-Regular.ttf);
+}
+
+.burger3-heading {
+    font-family: minal;
+    font-size: xx-large;
+    font-weight: lighter;
+    text-align: center;
+    margin-left: 50px;
+    color: rgb(67, 39, 39);
+}
+
+.burger3-heading-last {
+    font-family: minal;
+    font-size: xx-large;
+    margin-left: 140px;
+    font-weight: lighter;
+    text-align: center;
+    color: rgb(67, 39, 39);
+}
+
+@font-face {
+    font-family: burger3-heading-para;
+    src: url(./fonts/Montserrat-Italic-VariableFont_wght.ttf);
+}
+
+.burger3-heading-para-2 {
+
+    font-family: burger3-heading-para;
+    color: rgb(67, 39, 39);
+    text-align: center;
+    font-weight: bold;
+}
+
+.burger3-heading-para-3 {
+    width: 356px;
+    font-family: burger3-heading-para;
+    color: rgb(67, 39, 39);
+    text-align: center;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.burger3-heading-first-para {
+    font-family: burger3-heading-para;
+    color: rgb(67, 39, 39);
+    text-align: center;
+    width: 356px;
+    font-weight: bold;
+
+}
+
+@font-face {
+    font-family: alfa;
+    src: url(./fonts/AlfaSlabOne-Regular.ttf);
+}
+
+.button {
+    width: 196px;
+    font-family: alfa;
+    background-color: rgb(214, 15, 15);
+    color: white;
+    text-align: center;
+    height: 57px;
+    font-size: large;
+    font-weight: lighter;
+    border: none;
+    margin-left: 80px;
+    overflow: hidden;
+}
+
+.button3 {
+    width: 196px;
+    font-family: alfa;
+    background-color: rgb(214, 15, 15);
+    color: white;
+    text-align: center;
+    height: 57px;
+    font-size: large;
+    border: none;
+    margin-left: 127px;
+    overflow: hidden;
+}
+
+
+/*Upcoming Event*/
+.upcoming-events {
+    margin-top: 300px;
+}
+
+.event {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 10px 10px 35px 1px grey;
+}
+
+.in-event {
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.event-article,
+.event-img {
+    width: 50%;
+    height: 440px;
+    overflow: hidden;
+}
+
+.upcoming-event {
+    padding: 15px;
+    margin-top: 65px;
+}
+
+@font-face {
+    font-family: BebasNeue;
+    src: url(./fonts/BebasNeue-Regular.ttf);
+}
+
+.event-discover {
+    font-size: 29px;
+    font-family: BebasNeue;
+    color: #3d3d3d;
+}
+
+@font-face {
+    font-family: AlfaSlabOne;
+    src: url(./fonts/AlfaSlabOne-Regular.ttf);
+}
+
+
+.event-heading {
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 42px;
+    font-family: AlfaSlabOne;
+    color: #3d2514;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+.event-para {
+    margin: 0;
+    font-family: Montserrat;
+    font-size: 21px;
+    color: #4e4e4e;
+}
+
+.slider-button {
+    color: #dcdcdc;
+    margin-top: 80px;
+}
+
+.slider-button:hover {
+    color: #ffc045;
+}
+
+.slide {
+    width: 100%;
+}
+
+
+
+/*Book your table*/
+.title {
+    text-align: center;
+    font-size: 24px;
+}
+
+.block-details {
+    display: flex;
+}
+
+.block1 {
+    text-align: center;
+
+}
+
+.block1-data {
+    padding: 15px;
+    padding-left: 380px;
+}
+
+.box {
+    padding: 20px;
+    padding: 20px;
+    width: 335px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.block-details2 {
+    display: flex;
+}
+
+.block3-data {
+    padding: 0px 29px 20px 12px;
+
+}
+
+input[type=button] {
+
+    width: 380px;
+    height: 57px;
+    margin: 2px;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    background-color: red;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.red-bottle {
+    position: absolute;
+    top: 172px;
+    left: -14px;
+    width: 40%;
+}
+
+.burger-round {
+    right: 800px;
+    position: absolute;
+    top: 45px;
+    width: 75%;
+}
+
+.dish {
+    left: 1076px;
+    position: absolute;
+    top: 205px;
+}
+
+#main .btn {
+    width: 340px;
+    height: 56px;
+    outline: none;
+    font-weight: bold;
+    border: 0px solid gray;
+    text-shadow: 0px 0.5px 0.5px #fff;
+    border-radius: 5px;
+    font-weight: 600;
+    color: gray;
+    letter-spacing: 1px;
+    font-size: 18px;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+}
+
+#main .btn:hover {
+    background-color: red;
+    outline: none;
+    border-radius: 5px;
+    color: #f1f1f1;
+    border: 1px solid grey;
+}
+
+.title h1 {
+    font-family: AlfaSlabOne;
+
+}
+
+.btn {
+    font-family: AlfaSlabOne;
+}
+
+.title h4 {
+    font-family: BebasNeue;
+    src: url(./icomoon/fonts/BebasNeue-Regular.ttf);
+}
+
+/*footer*/
+.footer {
+    max-width: 1440px;
+    margin: 0 auto;
+    overflow: hidden;
+    color: white;
+}
+
+.inner-footer {
+    background-image: url("./imgs/footer-bg.png");
+    background-repeat: round;
+    height: 525px;
+    padding: 40px;
+    position: relative;
+}
+.footer-logo {
+    width: 468px;
+    height: 93px;
+    margin-top: 80px;
+}
+
+.footer-section {
+    display: flex;
+    margin-top: 50px;
+}
+
+.footer-left_section {
+    width: 55%;
+}
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url(./icomoon/fonts/Montserrat-Regular.ttf);
+}
+
+.footer-left_text {
+    font-size: 17px;
+    font-family: Montserrat-Regular;
+}
+
+@font-face {
+    font-family: BebasNeue;
+    src: url(./fonts/BebasNeue-Regular.ttf);
+}
+
+.footer-copyright {
+    position: absolute;
+    bottom: 28px;
+    font-size: 17px;
+    font-family: BebasNeue;
+}
+
+.footer-right_section {
+    width: 45%;
+    margin-top: 10px;
+}
+
+.footer-mail-location_section {
+    position: absolute;
+    right: 140px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-location_section {
+    margin-bottom: 13px;
+}
+
+.footer-location_icon,
+.footer-mail_icon {
+    font-size: 35px;
+    vertical-align: sub;
+}
+
+.footer-icon_text {
+    font-family: BebasNeue;
+    font-size: 21px;
+    padding-left: 35px;
+}
+
+.footer-icon {
+    position: absolute;
+    bottom: 28px;
+    right: 40px;
+}
+
+.footer-social_icon {
+    margin-left: 12px;
+    border: 1px solid;
+    border-radius: 100%;
+    font-size: 16px;
+    padding: 4px 6px;
+    color: black;
+    background-color: white;
+}
+
+.footer-facebook {
+    padding: 4px 8px;
+}

@@ -1,21 +1,94 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task-1</title>
+  <title>featured products</title>
+  <link rel="stylesheet" href="task.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="jquery.min.js"></script>
+  <script src="https://kit.fontawesome.com/b826549c01.js" crossorigin="anonymous"></script>
 </head>
 
-
 <body>
-    <header>
-        Header
-    </header>
-    <main>
-       Jay is the main lead of this project
-    </main>
+  <header>
+    <div>Top-header</div>
+  </header>
 
+  <main>
+    <section class="feature-products">
+      <div class="products">
+        <div class="products-left">
+          <img src="./Images/Burger Image1.png" alt="Burger-img1" class="products-image">
+          <span class="most-popular">
+            <p class="image-para-1">TRY IT TODAY</p>
+            <p class="image-para-2">MOST POPULAR BURGER</p>
+          </span>
+        </div>
+        <div class="products-right">
+          <div class="products-right-up">
+            <img src="./Images/BurgerImage-2.png" alt="Burger-img2" class="products-image">
+            <span class="fun-taste">
+              <p class="image-para-1">TRY IT TODAY</p>
+              <p class="image-para-2">MORE FUN <br> MORE TASTE</p>
+            </span>
+          </div>
+          <div class="products-right-down">
+            <img src="./Images/BurgerImage-3.png" alt="Burger-img3" class="products-image">
+            <span class="fresh-chilli">
+              <p class="image-para-1">TRY IT TODAY</p>
+              <p class="image-para-2">FRESH & CHILLI</p>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="choose&enjoy">
+      <div class="enjoy-inner">
+        <div class="choose-always">
+          <div class="choose-button">ALWAYS TASTY BURGER</div>
+        </div>
+        <div class="section-title">
+          CHOOSE & ENJOY
+        </div>
+        <div class="choose-info">
+          <article>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Quis ipsum suspendisse ultrices gravida.
+              Risus commodo viverra maecenas accumsan lacus vel facilisis.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="event">
+        <div class="in-event">
+          <div class="event-article">
+            <div class="upcoming-event">
+              <small class="event-discover">DISCOVER</small>
+              <h2 class="event-heading">UPCOMING EVENTS</h2>
+              <P class="event-para">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Quis ipsum suspendisse ultrices gravida.
+                Risus commodo viverra maecenas accumsan lacus vel facilisis.
+              </P>
+              <span>
+                <i class="fa-solid fa-circle slider-button btn-1" onclick="show.one()"></i>
+                <i class="fa-solid fa-circle slider-button btn-2" onclick="show.two()"></i>
+                <i class="fa-solid fa-circle slider-button btn-3" onclick="show.three()"></i>
+              </span>
+            </div>
+          </div>
+          <div id="event-img" class="event-img"></div>
+        </div>
+      </div>
+    </section>
+    <script src="task.js"></script>
 </body>
 
 </html>

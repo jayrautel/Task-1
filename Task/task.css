@@ -1,34 +1,39 @@
-<<<<<<< HEAD
-body{
+body {
     margin: 0;
 }
 
 /*Featured Products*/
-.feature-products{
+.feature-products {
     width: 100%;
 }
-.products{
+
+.products {
     padding: 30px 100px;
     display: flex;
     justify-content: space-between;
     overflow: hidden;
 }
-.products-left{
+
+.products-left {
     width: 48%;
-border-radius: 10px;
-position: relative;
+    border-radius: 10px;
+    position: relative;
 }
-.products-right{
+
+.products-right {
     display: flex;
     width: 48%;
     flex-direction: column;
     justify-content: space-between;
 }
-.products-right-up, .products-right-down{
+
+.products-right-up,
+.products-right-down {
     border-radius: 10px;
     position: relative;
 }
-.products-image{
+
+.products-image {
     width: 100%;
     border-radius: 10px;
 }
@@ -38,29 +43,33 @@ position: relative;
     src: url(./fonts/BebasNeue-Regular.ttf);
 }
 
-.image-para-1{
+.image-para-1 {
     margin: 0;
     font-size: 20px;
     font-family: bebas-neue;
     color: #ffffff;
 }
-.image-para-2{
+
+.image-para-2 {
     font-size: 30px;
     font-family: bebas-neue;
     margin: 0;
     color: #ffffff;
 }
-.most-popular{
+
+.most-popular {
     position: absolute;
     top: 10px;
     left: 25px;
 }
-.fun-taste{
+
+.fun-taste {
     position: absolute;
     top: 10px;
     left: 25px;
 }
-.fresh-chilli{
+
+.fresh-chilli {
     position: absolute;
     top: 10px;
     left: 25px;
@@ -73,8 +82,8 @@ position: relative;
     padding: 10px 100px;
     text-align: center;
 }
-    
-    @font-face {
+
+@font-face {
     font-family: bebas-neue;
     src: url(./fonts/BebasNeue-Regular.ttf);
 }
@@ -113,132 +122,150 @@ position: relative;
     font-family: montserrat;
     margin: 0;
     font-size: 17px;
-    color: #3d2514;}
+    color: #3d2514;
+}
 
 
 /*Most popular*/
-    .burger3-img3{
-        display: flex;
-        padding: 30px 10px 5px 10px;
-    }
-    .burger1{
-        float: left;
-        width: 335px;
-        height: 272px;
-        padding: 30px 10px 5px 10px;  
-    }
-    .shadow1{
-        width: 382px;
-        height: 40px;
-        text-align: center;
-    }
-    .shadow2{
-        width: 372px;
-        height: 40px;
-        text-align: center;
-    }
-    .burger2{
-        float: left;
-        width: 348px;
-        height: 303px;
-        margin-left: 185px;   
-    }
-    .burger3{
-      float: right;
-      width: 340px;
-      height: 283px;
-      margin-left: 92px;
-      padding: 30px 10px 5px 10px;
-      
-    }
-    .shadow3{
-        width: 389px;
-        height: 40px;
-        margin-left: 20px;
-        text-align: center;
-    }
-    @font-face {
-        font-family:minal ;
-        src: url(./fonts/BebasNeue-Regular.ttf);
-    }
-    .burger3-heading{
-        font-family: minal;
-        font-size: xx-large;
-        font-weight: lighter;
-        text-align: center;
-        margin-left: 50px;
-        color: rgb(67, 39, 39);
-    }
-    .burger3-heading-last{
-        font-family: minal;
-        font-size: xx-large;
-        margin-left: 140px;
-        font-weight: lighter;
-        text-align: center;
-        color: rgb(67, 39, 39);
-    }
-    @font-face {
-        font-family:burger3-heading-para;
-        src: url(./fonts/Montserrat-Italic-VariableFont_wght.ttf);
-    }
-    .burger3-heading-para-2{
-       
-        font-family:burger3-heading-para;
-        color: rgb(67, 39, 39);
-        text-align: center;
-        font-weight: bold;
-    }
-    .burger3-heading-para-3{
-        width: 356px;
-        font-family:burger3-heading-para;
-        color: rgb(67, 39, 39);
-        text-align: center;
-        margin-left: 50px;
-        font-weight: bold;
-    }
-    .burger3-heading-first-para{
-        font-family:burger3-heading-para;
-        color: rgb(67, 39, 39);
-        text-align: center;
-        width: 356px;
-        font-weight: bold;
-        
-    }
-    @font-face {
-        font-family: alfa;
-        src: url(./fonts/AlfaSlabOne-Regular.ttf);
-    }
-    .button{
-        width: 196px;
-        font-family: alfa;
-        background-color: rgb(214, 15, 15);
-        color: white;
-        text-align: center;
-        height: 57px;
-        font-size: large;
-        font-weight: lighter;
-        border: none;
-        margin-left: 80px;
-        overflow: hidden;
-    }
-    .button3{
-        width: 196px;
-        font-family: alfa;
-        background-color: rgb(214, 15, 15);
-        color: white;
-        text-align: center;
-        height: 57px;
-        font-size: large;
-        border: none;
-        margin-left: 127px;
-        overflow: hidden;
-    }
+.burger3-img3 {
+    display: flex;
+    padding: 30px 10px 5px 10px;
+}
 
-    
+.burger1 {
+    float: left;
+    width: 335px;
+    height: 272px;
+    padding: 30px 10px 5px 10px;
+}
+
+.shadow1 {
+    width: 382px;
+    height: 40px;
+    text-align: center;
+}
+
+.shadow2 {
+    width: 372px;
+    height: 40px;
+    text-align: center;
+}
+
+.burger2 {
+    float: left;
+    width: 348px;
+    height: 303px;
+    margin-left: 185px;
+}
+
+.burger3 {
+    float: right;
+    width: 340px;
+    height: 283px;
+    margin-left: 92px;
+    padding: 30px 10px 5px 10px;
+
+}
+
+.shadow3 {
+    width: 389px;
+    height: 40px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+@font-face {
+    font-family: minal;
+    src: url(./fonts/BebasNeue-Regular.ttf);
+}
+
+.burger3-heading {
+    font-family: minal;
+    font-size: xx-large;
+    font-weight: lighter;
+    text-align: center;
+    margin-left: 50px;
+    color: rgb(67, 39, 39);
+}
+
+.burger3-heading-last {
+    font-family: minal;
+    font-size: xx-large;
+    margin-left: 140px;
+    font-weight: lighter;
+    text-align: center;
+    color: rgb(67, 39, 39);
+}
+
+@font-face {
+    font-family: burger3-heading-para;
+    src: url(./fonts/Montserrat-Italic-VariableFont_wght.ttf);
+}
+
+.burger3-heading-para-2 {
+
+    font-family: burger3-heading-para;
+    color: rgb(67, 39, 39);
+    text-align: center;
+    font-weight: bold;
+}
+
+.burger3-heading-para-3 {
+    width: 356px;
+    font-family: burger3-heading-para;
+    color: rgb(67, 39, 39);
+    text-align: center;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.burger3-heading-first-para {
+    font-family: burger3-heading-para;
+    color: rgb(67, 39, 39);
+    text-align: center;
+    width: 356px;
+    font-weight: bold;
+
+}
+
+@font-face {
+    font-family: alfa;
+    src: url(./fonts/AlfaSlabOne-Regular.ttf);
+}
+
+.button {
+    width: 196px;
+    font-family: alfa;
+    background-color: rgb(214, 15, 15);
+    color: white;
+    text-align: center;
+    height: 57px;
+    font-size: large;
+    font-weight: lighter;
+    border: none;
+    margin-left: 80px;
+    overflow: hidden;
+}
+
+.button3 {
+    width: 196px;
+    font-family: alfa;
+    background-color: rgb(214, 15, 15);
+    color: white;
+    text-align: center;
+    height: 57px;
+    font-size: large;
+    border: none;
+    margin-left: 127px;
+    overflow: hidden;
+}
+
+
 /*Upcoming Event*/
-.upcoming-events{
+.upcoming-events {
     margin-top: 300px;
 }
+
 .event {
     max-width: 1440px;
     width: 100%;
@@ -250,7 +277,7 @@ position: relative;
     padding: 25px;
     display: flex;
     justify-content: space-between;
-   
+
 }
 
 .event-article,
@@ -273,65 +300,71 @@ position: relative;
 .event-discover {
     font-size: 29px;
     font-family: BebasNeue;
-    color: #3d3d3d;}
-    @font-face {
-        font-family: AlfaSlabOne;
-        src: url(./fonts/AlfaSlabOne-Regular.ttf);
-    }
-    
-    
-    .event-heading {
-        margin: 0;
-        margin-bottom: 15px;
-        font-size: 42px;
-        font-family: AlfaSlabOne;
-        color: #3d2514;
-    }
-    
-    @font-face {
-        font-family: Montserrat;
-        src: url(./fonts/Montserrat-VariableFont_wght.ttf);
-    }
-    
-    .event-para {
-        margin: 0;
-        font-family: Montserrat;
-        font-size: 21px;
-        color: #4e4e4e;
-    }
-    
-    .slider-button {
-        color: #dcdcdc;
-        margin-top: 80px;
-    }
-    .slider-button:hover {
-        color: #ffc045;
-    }
-    .slide {
-        width: 100%;
-    }
+    color: #3d3d3d;
+}
+
+@font-face {
+    font-family: AlfaSlabOne;
+    src: url(./fonts/AlfaSlabOne-Regular.ttf);
+}
+
+
+.event-heading {
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 42px;
+    font-family: AlfaSlabOne;
+    color: #3d2514;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(./fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+.event-para {
+    margin: 0;
+    font-family: Montserrat;
+    font-size: 21px;
+    color: #4e4e4e;
+}
+
+.slider-button {
+    color: #dcdcdc;
+    margin-top: 80px;
+}
+
+.slider-button:hover {
+    color: #ffc045;
+}
+
+.slide {
+    width: 100%;
+}
 
 
 
 /*Book your table*/
-.title{
+.title {
     text-align: center;
     font-size: 24px;
 }
-.block-details{
+
+.block-details {
     display: flex;
 }
+
 .block1 {
- text-align: center;
- 
+    text-align: center;
+
 }
 
-.block1-data{
+.block1-data {
     padding: 15px;
-    padding-left: 380px;  
+    padding-left: 380px;
 }
 
-.box{
+.box {
     padding: 20px;
     padding: 20px;
     width: 335px;
@@ -339,16 +372,17 @@ position: relative;
     border-radius: 5px;
 }
 
-.block-details2{
+.block-details2 {
     display: flex;
 }
 
-.block3-data{
+.block3-data {
     padding: 0px 29px 20px 12px;
-    
+
 }
-input[type=button]{
-    
+
+input[type=button] {
+
     width: 380px;
     height: 57px;
     margin: 2px;
@@ -359,64 +393,67 @@ input[type=button]{
     font-size: 21px;
     font-weight: bold;
 }
-.red-bottle{
+
+.red-bottle {
     position: absolute;
     top: 172px;
     left: -14px;
     width: 40%;
 }
-.burger-round{
+
+.burger-round {
     right: 800px;
     position: absolute;
     top: 45px;
     width: 75%;
 }
-.dish{
+
+.dish {
     left: 1076px;
     position: absolute;
     top: 205px;
 }
 
-#main .btn
-{
- width:340px; 
- height:56px; 
- outline:none; 
-  font-weight:bold;
-   border:0px solid gray;
-    text-shadow: 0px 0.5px 0.5px #fff;	
- border-radius: 5px; 
- font-weight: 600; 
- color:gray; 
- letter-spacing: 1px; 
- font-size:18px; 
- -webkit-transition: 1s; 
- -moz-transition: 1s;
-  transition: 1s;
+#main .btn {
+    width: 340px;
+    height: 56px;
+    outline: none;
+    font-weight: bold;
+    border: 0px solid gray;
+    text-shadow: 0px 0.5px 0.5px #fff;
+    border-radius: 5px;
+    font-weight: 600;
+    color: gray;
+    letter-spacing: 1px;
+    font-size: 18px;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
 }
 
-#main .btn:hover
-{
- background-color:red; 
- outline:none;  
- border-radius: 5px; 
- color:#f1f1f1; 
- border:1px solid grey;
+#main .btn:hover {
+    background-color: red;
+    outline: none;
+    border-radius: 5px;
+    color: #f1f1f1;
+    border: 1px solid grey;
 }
 
-.title h1{
+.title h1 {
     font-family: AlfaSlabOne;
 
 }
-.btn{
+
+.btn {
     font-family: AlfaSlabOne;
 
 }
+
 @font-face {
     font-family: BebasNeue;
     src: url(./fonts/BebasNeue-Regular.ttf);
 }
-.title h4{
+
+.title h4 {
     font-family: BebasNeue;
 }
-

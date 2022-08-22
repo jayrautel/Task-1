@@ -1,6 +1,8 @@
 body{
     margin: 0;
 }
+
+/*Featured Products*/
 .feature-products{
     width: 100%;
 }
@@ -65,7 +67,7 @@ position: relative;
 
 
 
-
+/*Choose & Enjoy*/
 .enjoy-inner {
     padding: 10px 100px;
     text-align: center;
@@ -113,7 +115,128 @@ position: relative;
     color: #3d2514;}
 
 
+/*Most popular*/
+    .burger3-img3{
+        display: flex;
+        padding: 30px 10px 5px 10px;
+    }
+    .burger1{
+        float: left;
+        width: 335px;
+        height: 272px;
+        padding: 30px 10px 5px 10px;
+    
+        
+    }
+    .shadow1{
+        width: 382px;
+        height: 40px;
+        text-align: center;
+    }
+    .shadow2{
+        width: 372px;
+        height: 40px;
+        text-align: center;
+    }
+    .burger2{
+        float: left;
+        width: 348px;
+        height: 303px;
+        margin-left: 185px;   
+    }
+    .burger3{
+      float: right;
+      width: 340px;
+      height: 283px;
+      margin-left: 92px;
+      padding: 30px 10px 5px 10px;
+      
+    }
+    .shadow3{
+        width: 389px;
+        height: 40px;
+        margin-left: 20px;
+        text-align: center;
+    }
+    @font-face {
+        font-family:minal ;
+        src: url(./fonts/BebasNeue-Regular.ttf);
+    }
+    .burger3-heading{
+        font-family: minal;
+        font-size: xx-large;
+        font-weight: lighter;
+        text-align: center;
+        margin-left: 50px;
+        color: rgb(67, 39, 39);
+    }
+    .burger3-heading-last{
+        font-family: minal;
+        font-size: xx-large;
+        margin-left: 140px;
+        font-weight: lighter;
+        text-align: center;
+        color: rgb(67, 39, 39);
+    }
+    @font-face {
+        font-family:burger3-heading-para;
+        src: url(./fonts/Montserrat-Italic-VariableFont_wght.ttf);
+    }
+    .burger3-heading-para-2{
+       
+        font-family:burger3-heading-para;
+        color: rgb(67, 39, 39);
+        text-align: center;
+        font-weight: bold;
+    }
+    .burger3-heading-para-3{
+        width: 356px;
+        font-family:burger3-heading-para;
+        color: rgb(67, 39, 39);
+        text-align: center;
+        margin-left: 50px;
+        font-weight: bold;
+    }
+    .burger3-heading-first-para{
+        font-family:burger3-heading-para;
+        color: rgb(67, 39, 39);
+        text-align: center;
+        width: 356px;
+        font-weight: bold;
+        
+    }
+    @font-face {
+        font-family: alfa;
+        src: url(./fonts/AlfaSlabOne-Regular.ttf);
+    }
+    .button{
+        width: 196px;
+        font-family: alfa;
+        background-color: rgb(214, 15, 15);
+        color: white;
+        text-align: center;
+        height: 57px;
+        font-size: large;
+        font-weight: lighter;
+        border: none;
+        margin-left: 80px;
+        overflow: hidden;
+    }
+    .button3{
+        width: 196px;
+        font-family: alfa;
+        background-color: rgb(214, 15, 15);
+        color: white;
+        text-align: center;
+        height: 57px;
+        font-size: large;
+        border: none;
+        margin-left: 127px;
+        overflow: hidden;
+    }
 
+    
+/*Upcoming Event*/
 .event {
     max-width: 1440px;
     width: 100%;
@@ -183,9 +306,9 @@ position: relative;
 .slider-button:hover {
     color: #ffc045;
 }
-
-
 .slide {
     width: 100%;
 }
+
+
 

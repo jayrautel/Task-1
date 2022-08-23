@@ -318,6 +318,11 @@ a {
 
 
 /*Most popular*/
+.most-popular-section{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
 .burger3-img3 {
     display: flex;
     padding: 30px 10px 5px 10px;
@@ -423,6 +428,16 @@ a {
     font-family: alfa;
     src: url(./fonts/AlfaSlabOne-Regular.ttf);
 }
+input[type=button] {
+    width: 200px;
+    height: 57px;
+    margin: 2px;
+    color: #fff;
+    border: none;
+  
+    background-color: red;
+    font-size: 21px;
+}
 
 .button {
     width: 196px;
@@ -432,7 +447,6 @@ a {
     text-align: center;
     height: 57px;
     font-size: large;
-    font-weight: lighter;
     border: none;
     margin-left: 80px;
     overflow: hidden;

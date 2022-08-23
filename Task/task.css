@@ -155,14 +155,14 @@ body {
 }
 
 .header-burger-text {
-    left: 66px;
+    left: 64px;
     position: absolute;
     font-weight: bold;
     font-family: AlfaSlabOne;
     font-size: 114px;
-    color: white;
+    color: #ffffff;
     letter-spacing: 6px;
-    top: 350px;
+    top: 348px;
 }
 
 .header-burger-text-white {
@@ -183,7 +183,7 @@ body {
     font-weight: bold;
     font-family: AlfaSlabOne;
     font-size: 56px;
-    color: white;
+    color: #ffffff;
     letter-spacing: 2px;
 }
 

@@ -38,6 +38,7 @@ body {
     max-width: 263px;
     margin: 46px 56px;
 }
+
 .header-scooter-par {
     text-align: center;
     display: flex;
@@ -79,118 +80,125 @@ body {
 }
 
 .header-glow {
-    margin-left: 650px;
     height: 600px;
     width: 100%;
-    max-width: 827px;
+    max-width: 627px;
     position: absolute;
-    margin-top: -798px;
+    top: 10px;
+    right: 34px;
 }
 
-a {
+.header-anchor {
     text-decoration: none;
     color: #3d2514;
 }
 
 .header-drink {
-    margin-left: 1165px;
-    margin-top: -598px;
     max-width: 171px;
     position: absolute;
     height: 478px;
+    right: 103px;
+    top: 221px;
+}
+
+.header-french-fries-parent {
+    right: 410px;
+    position: absolute;
+    top: 281px;
 }
 
 .header-french-fries {
     transform: rotate(-36deg);
     max-width: 220px;
-    margin-top: -527px;
-    margin-left: 820px;
 }
 
 .header-burger {
-    margin-top: -471px;
-    margin-left: 914px;
     max-width: 356px;
     position: absolute;
     height: 367px;
+    right: 171px;
+    top: 349px;
 }
 
 .header-price {
-    margin-top: -295px;
-    margin-left: 786px;
+    top: 525px;
+    right: 460px;
     padding: 54px 10px;
     position: absolute;
 }
 
 .header-burger-shadow {
-    margin-top: -115px;
-    margin-left: 869px;
-    max-width: 431px;
+    max-width: 441px;
     position: absolute;
+    bottom: 72px;
+    right: 135px;
+
 }
 
 .header-drink-shadow {
-    margin-top: -127px;
-    margin-left: 1109px;
     max-width: 270px;
     position: absolute;
+    bottom: 100px;
+    right: 50px;
 }
 
 .header-sub-title {
     font-size: 24px;
-    margin-top: -534px;
-    margin-left: 62px;
     border: dashed 2px #3d2514;
     padding: 15px 20px;
     max-width: 415px;
     position: absolute;
+    top: 285px;
+    left: 60px;
     font-family: 'BebasNeue';
     color: #3d2514;
 }
 
 .header-burger-text {
-    margin-top: -471px;
-    margin-left: 65px;
+    left: 64px;
     position: absolute;
     font-weight: bold;
     font-family: AlfaSlabOne;
     font-size: 114px;
-    color: white;
+    color: #ffffff;
     letter-spacing: 6px;
+    top: 348px;
 }
 
 .header-burger-text-white {
-    margin-top: -476px;
-    margin-left: 60px;
     position: absolute;
     font-weight: bold;
     font-family: AlfaSlabOne;
     font-size: 114px;
     color: #3d2514;
     letter-spacing: 6px;
+    left: 60px;
+    top: 345px;
 }
 
 .header-week-text {
-    margin-top: -328px;
-    margin-left: 67px;
     position: absolute;
+    left: 67px;
+    bottom: 251px;
     font-weight: bold;
     font-family: AlfaSlabOne;
     font-size: 56px;
-    color: white;
+    color: #ffffff;
     letter-spacing: 2px;
 }
 
 .header-week-text-white {
-    margin-top: -331px;
-    margin-left: 65px;
     position: absolute;
+    bottom: 254px;
+    left: 64px;
     font-weight: bold;
     font-family: AlfaSlabOne;
     font-size: 56px;
     color: #3d2514;
     letter-spacing: 2px;
 }
+
+
 
 /*Featured Products*/
 .feature-products {
@@ -319,150 +327,105 @@ a {
 
 /*Most popular*/
 .most-popular-section{
+    background: color #f2f2f2;;
     max-width: 1440px;
-    width: 100%;
     margin: 0 auto;
+   
 }
-.burger3-img3 {
+.burger3-img3{
     display: flex;
     padding: 30px 10px 5px 10px;
+    text-align:center ;
+   justify-content: space-between;
 }
-
-.burger1 {
+.burger1{
     float: left;
-    width: 335px;
+    width: 365px;
     height: 272px;
     padding: 30px 10px 5px 10px;
-}
 
-.shadow1 {
-    width: 382px;
+    
+}
+.shadow1{
+    width: 370px;
+    height: 40px;
+  text-align: center;
+}
+.shadow2{
+    width: 378px;
     height: 40px;
     text-align: center;
 }
-
-.shadow2 {
-    width: 372px;
-    height: 40px;
-    text-align: center;
-}
-
-.burger2 {
+.burger2{
     float: left;
     width: 348px;
     height: 303px;
-    margin-left: 185px;
+    
+
+    
 }
-
-.burger3 {
-    float: right;
-    width: 340px;
-    height: 283px;
-    margin-left: 92px;
-    padding: 30px 10px 5px 10px;
-
+.burger3{
+  float: right;
+  width: 380px;
+  height: 283px;
+  padding: 30px 10px 5px 10px;
+  
 }
-
-.shadow3 {
-    width: 389px;
+.shadow3{
+    width: 380px;
     height: 40px;
-    margin-left: 20px;
     text-align: center;
+    
 }
-
 @font-face {
-    font-family: minal;
+    font-family:minal ;
     src: url(./fonts/BebasNeue-Regular.ttf);
 }
-
-.burger3-heading {
+.burger3-heading{
     font-family: minal;
     font-size: xx-large;
-    font-weight: lighter;
-    text-align: center;
-    margin-left: 50px;
     color: rgb(67, 39, 39);
-}
-
-.burger3-heading-last {
-    font-family: minal;
-    font-size: xx-large;
-    margin-left: 140px;
-    font-weight: lighter;
     text-align: center;
-    color: rgb(67, 39, 39);
 }
 
 @font-face {
-    font-family: burger3-heading-para;
-    src: url(./fonts/Montserrat-Italic-VariableFont_wght.ttf);
+    font-family:burger3-heading-para;
+    src: url(./fonts/Montserrat-VariableFont_wght.ttf);
 }
-
-.burger3-heading-para-2 {
-
-    font-family: burger3-heading-para;
+.burger3-heading-para{
+      width: 340px;
+      height: 50px;
+    font-family:burger3-heading-para;
     color: rgb(67, 39, 39);
     text-align: center;
-    font-weight: bold;
-}
+    font-style: normal;
+    
 
-.burger3-heading-para-3 {
-    width: 356px;
-    font-family: burger3-heading-para;
-    color: rgb(67, 39, 39);
-    text-align: center;
-    margin-left: 50px;
-    font-weight: bold;
-}
-
-.burger3-heading-first-para {
-    font-family: burger3-heading-para;
-    color: rgb(67, 39, 39);
-    text-align: center;
-    width: 356px;
-    font-weight: bold;
-
+    
 }
 
 @font-face {
     font-family: alfa;
     src: url(./fonts/AlfaSlabOne-Regular.ttf);
 }
-input[type=button] {
-    width: 200px;
-    height: 57px;
-    margin: 2px;
-    color: #fff;
-    border: none;
-  
-    background-color: red;
-    font-size: 21px;
-}
-
-.button {
-    width: 196px;
+.button{
+    width: 175px;
     font-family: alfa;
     background-color: rgb(214, 15, 15);
     color: white;
-    text-align: center;
-    height: 57px;
     font-size: large;
+    height: 57px;
+    justify-content: center;
     border: none;
-    margin-left: 80px;
-    overflow: hidden;
+    
+
 }
 
-.button3 {
-    width: 196px;
-    font-family: alfa;
-    background-color: rgb(214, 15, 15);
-    color: white;
+.button:active{
+    background-color: antiquewhite;
+}
+.burger3{
     text-align: center;
-    height: 57px;
-    font-size: large;
-    border: none;
-    margin-left: 127px;
-    overflow: hidden;
 }
 
 
@@ -550,7 +513,7 @@ input[type=button] {
 
 
 /*Book your table*/
-.book_your_table{
+.book_your_table {
     position: relative;
     padding: 30px 0;
 }
@@ -591,19 +554,6 @@ input[type=button] {
 
 }
 
-input[type=button] {
-
-    width: 380px;
-    height: 57px;
-    margin: 2px;
-    color: #fff;
-    border: none;
-    border-radius: 8px;
-    background-color: red;
-    font-size: 21px;
-    font-weight: bold;
-}
-
 .red-bottle {
     position: absolute;
     top: 210px;
@@ -619,13 +569,13 @@ input[type=button] {
 }
 
 .dish {
-       left: 1155px;
+    left: 1155px;
     position: absolute;
     top: 274px;
 }
 
 #main .btn {
-    width: 340px;
+    width: 380px;
     height: 56px;
     outline: none;
     font-weight: bold;
@@ -678,6 +628,7 @@ input[type=button] {
     padding: 40px;
     position: relative;
 }
+
 .footer-logo {
     width: 468px;
     height: 93px;
@@ -739,7 +690,9 @@ a {
     font-size: 35px;
     vertical-align: sub;
 }
-
+.footer-mail_icon{
+    font-size: 29px;
+}
 .footer-icon_text {
     font-family: BebasNeue;
     font-size: 21px;
